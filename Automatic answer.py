@@ -5,7 +5,6 @@ driver = webdriver.Chrome()
 driver.get(url)
 
 a = input('\n\n\n\n\n\n****\n\n\n\n\nsign in and input anything like ‘ok’ \n\n\n\n****\n\n\n\n')
-a = input('sign in and input anything like ‘ok’ ')
 kkk = 0
 
 while(1):
