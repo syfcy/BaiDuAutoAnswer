@@ -47,6 +47,7 @@ while(1):
                 driver.switch_to.window(driver.window_handles[3])
                 try:
                     text = driver.find_element_by_class_name('best-text,mb-10').text
+                    text = '您好，非常荣幸能在此回答您的问题。以下是我对此问题的部分见解，若有错误，欢迎指出。' + text + '非常感谢您的耐心观看，如有帮助请采纳，祝生活愉快！谢谢！'
                 except:
                     text = ''
                 finally:
